@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/composemail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.crabsofts.sharenotes.Activities.ContributeActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compose Mail :"
+                android:textSize="22sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/fromuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From: mohdhaider30@gmail.com"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"
+                android:layout_marginTop="10dp"></View>
+            <TextView
+                android:id="@+id/touser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To: mohdhaider30@gmail.com"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"
+                android:layout_marginTop="10dp"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Subject :"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/subjectEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:hint="Write down the Subject"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"
+                android:layout_marginTop="10dp"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Message :"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:inputType="textMultiLine"
+                android:textSize="16sp"
+                android:hint="Write down any Message"/>
+        </LinearLayout>
+
+</RelativeLayout>

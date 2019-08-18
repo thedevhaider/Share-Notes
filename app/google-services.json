@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "153263254841",
+    "firebase_url": "https://sharenotes-9c333.firebaseio.com",
+    "project_id": "sharenotes-9c333",
+    "storage_bucket": "sharenotes-9c333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153263254841:android:f1a1afea19dbb84c",
+        "android_client_info": {
+          "package_name": "com.crabsofts.sharenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153263254841-844b41srughb1vsu3hg5ketv8sjo26h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crabsofts.sharenotes",
+            "certificate_hash": "a64d5eb0a1eb493eaa907e30d2553c2b3095b7a8"
+          }
+        },
+        {
+          "client_id": "153263254841-049guc69aln4ir1aja9dsr4l61qnrmub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crabsofts.sharenotes",
+            "certificate_hash": "d79cf33630c7e9baa28b3728efa1f78aa452b247"
+          }
+        },
+        {
+          "client_id": "153263254841-fkd28ipke7j9muokpl3s2d6kl8hk5f6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crabsofts.sharenotes",
+            "certificate_hash": "3a1f2e37693d7914f46c9009cd0d4a01e6ffcde9"
+          }
+        },
+        {
+          "client_id": "153263254841-of2737hg46vih7c04hkusfa045hh1l9o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crabsofts.sharenotes",
+            "certificate_hash": "1cd0f239d99cc8c127d31606f9bd321d622e93e8"
+          }
+        },
+        {
+          "client_id": "153263254841-jafhie7svavbnh9lsio526vf5hvk7fq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEP0LAXhP4S-YPkUl_K3OA8c__z5HVpg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153263254841-jafhie7svavbnh9lsio526vf5hvk7fq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

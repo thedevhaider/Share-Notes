@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/SubjectCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="1dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="2dp">
+            <Button
+                android:id="@+id/viewNotesButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ripple"
+                android:drawableLeft="@drawable/ic_action_streetview"
+                android:elevation="3dp"
+                android:paddingLeft="10dp"
+                android:text="View      "
+                android:textAllCaps="false"
+                android:textColor="#424242"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/delete_unit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_action_delete_dark"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackground"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/colorstrip"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/colorstrip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/unitname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Unit-1, File Handling"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subjectname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Object Oriented Programming"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:maxEms="12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pages"
+                        android:layout_width="160dp"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="1dp"
+                        android:drawableLeft="@drawable/ic_notes_page"
+                        android:text="Page-10"
+                        android:textColor="#212121"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

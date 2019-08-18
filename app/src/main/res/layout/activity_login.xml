@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.crabsofts.sharenotes.Activities.LoginActivity">
+    <com.thebrownarrow.customfont.CustomFontTextView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:padding="6dp"
+        android:text="Share Notes"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        app:custom_typeface="@string/custom_font" />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/logoView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/notes" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="Making college life easier"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/gmailloginButton"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/login_div">
+    </View>
+    <Button
+        android:id="@+id/gmailloginButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#ffffff"
+        android:drawableLeft="@drawable/ic_google_logo"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+</RelativeLayout>

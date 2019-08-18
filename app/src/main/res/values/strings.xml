@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Share Notes</string>
+    <string name="custom_font" translatable="false">Kaushan.ttf</string>
+    <string name="WEB_API_CLIENT">AIzaSyAppg2VhCEYmIZBeqQjArZSWA4IQOOqnmY</string>
+    <string name="CLIENT_ID">153263254841-m56bnt73a5qfnkm9tidj2kg8r16tqbih.apps.googleusercontent.com</string>
+    <string name="title_activity_home_page"></string>
+    <string name="title1">Class Notes</string>
+    <string name="title2">Topper\'s Notes</string>
+    <string name="title3">Discussion Forum</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="notes_not_available">Notes of this Subject are not Available at this moment. We are working hard to add the notes. Kindly check it out later. Sorry for the inconvinience</string>
+    <string name="slide_1_desc">Download and view class notes of Engineering field.</string>
+    <string name="slide_2_desc">Notes are written and maintained by the Toppers and Faculty Members so you can take advantage from it.</string>
+    <string name="slide_3_desc">Post your questions in the Discussion forum and get answers from the other users and our Toppers. Technical questions are most welcome.</string>
+    <string name="about">Application Developer: Haider\nThis Application is for those who want to Beat Exams.</string>
+    <string name="title_activity_don">don</string>
+    <string name="welcome_message">Thanks for installing Share Notes. As of now Share notes provide two services to the users.\n\n1. Class Notes.\n2. Discussion Platform.\n\nYou can view and download the class notes and ask any Technical, Non Technical or any real life
+                                    life Questions in the Doubt Section. You can Contribute to our app by uploading your notes from the Contribute Section of Share Notes. The names of the contributers will be added in the Credits.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_share">Share</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="doubt_post_on">You\'ll recieve notification when someone post a question on doubt section.</string>
+    <string name="doubt_post_off">You won\'t recieve notification when someone post a question on doubt section.</string>
+    <string name="doubt_comment_on">You\'ll recieve notification when someone comment on your post in doubt section.</string>
+    <string name="doubt_comment_off">You won\'t recieve notification when someone comment on your post in doubt section.</string>
+    <string name="notes_addition_on">You\'ll recieve notification when we add new notes in our Notes Collection or for any other update.</string>
+    <string name="notes_addition_off">You won\'t recieve notification when we add new notes in our Notes Collection or for any other update.</string>
+    <string name="chinausers_title">Turn on Notification in Xiaomi Mi and Huawei Smartphones.\n\n</string>
+    <string name="chinausers_message">1. Go to settings -> permissions -> autostart. From there, pick the Share Notes app, and toggle the switch to turn it on.\n\n
+                                      2. Go to settings -> manage app\'s bettery usage -> choose apps, From there, pick the Share Notes app and select No restrictions.\n\n</string>
+    <string name="home_info">You can select any of the following Department to view or download the contents of the particular section.</string>
+    <string name="mute_notification">Go to the Settings to mute the Notifications.</string>
+    <string name="settings_info">You can set various features of the app from below.</string>
+    <string name="contribute_info">You can contribute to our app by providing your notes and by purchasing the ad free version of our app.
+                                \nProcedure to upload notes.\n\n1. Take pictures of your Notes.\n2. Make the zip file of the taken pictures.
+                                \n4. Now browse this zip file and tap the Upload Button.\n\nBy Contributing in the Application your name will be
+                                added in the Credits.</string>
+    <string name="feedback_info">Your feedback is very important for the Growth of Share Notes. Please help us by giving us the valuable suggestions.</string>
+    <string name="about_info">This section contains information of our team members behind the Developement of this Application.</string>
+    <string name="about_app">We provide free basic services for students to make their college life easier.</string>
+    <string name="subjects_info">You can either search for a subject or can see the notes of your desired subject manually.</string>
+    <string name="doubt_info">You can post your any question in the Doubt Section. Our Toppers will help you surely.</string>
+    <string name="haider_email">mohdhaider30@gmail.com</string>
+    <string name="mushtaq_email">amustaque97@gmail.com</string>
+    <string name="jasmine_email">jasminebadwal02@gmail.com</string>
+    <string name="lp_email">lplovepreetparmar@gmail.com</string>
+    <string name="eleena_email">fayazeleena@gmail.com</string>
+    <string name="contribute_req">We Are Short on notes right now. Please support us by uploading your notes from the Contribute Section. Your name will be added in the Credits.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_info">Introducing Share Notes to learn and post your Questions in the Discussion Forum https://play.google.com/store/apps/details?id=com.crabsofts.sharenotes</string>
+</resources>

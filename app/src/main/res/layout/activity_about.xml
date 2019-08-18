@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crabsofts.sharenotes.Activities.AboutActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/main_tool_bar">
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@drawable/main_scroll_bar"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5f5f5"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:id="@+id/uppercard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/appname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Share Notes"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/appname"
+                        android:layout_centerHorizontal="true"
+                        android:text="v1.1"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/aboutapp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/version"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="@string/about_app"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/poweredbytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/aboutapp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Powered By : "
+                        android:textColor="#000000"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:id="@+id/firmname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/aboutapp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/poweredbytext"
+                        android:text="Crabsofts"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp"
+                        />
+                    <TextView
+                        android:id="@+id/devtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/poweredbytext"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="Developer :"
+                        android:textColor="#000000"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:id="@+id/devname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/firmname"
+                        android:layout_below="@+id/firmname"
+                        android:text="Mohd. Haider"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/haidercard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/uppercard"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/haidercolorstrip"
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary" />
+                    <ImageView
+                        android:id="@+id/haiderpic"
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/haidercolorstrip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/haiderpic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/haiderpic"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/haidername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Mohd. Haider"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/haiderrole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="(Founder &amp; CEO)"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/haideroccu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Android Developer"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/haideremail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:onClick="composeMail"
+                            android:tag="1"
+                            android:text="@string/haider_email"
+                            android:textColor="#2962ff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/mustaqcard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/haidercard"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:visibility="visible"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/mustaqcolorstrip"
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary" />
+                    <ImageView
+                        android:id="@+id/mustaqpic"
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/mustaqcolorstrip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mustaqpic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/mustaqpic"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/mustaqname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Mustaq Ahmed"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/mustaqrole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="(Co-Founder)"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/mustaqoccu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Web Developer"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/mustaqemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:onClick="composeMail"
+                            android:tag="2"
+                            android:text="@string/mushtaq_email"
+                            android:textColor="#2962ff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/lpcard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/mustaqcard"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:visibility="visible"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/lpcolorstrip"
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary" />
+                    <ImageView
+                        android:id="@+id/lppic"
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/lpcolorstrip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/lppic" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/lppic"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/lpname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Lovepreet Parmar"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/lprole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="(Team-Member)"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/lpoccu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Logo Designer"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/lpemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:onClick="composeMail"
+                            android:tag="3"
+                            android:text="@string/lp_email"
+                            android:textColor="#2962ff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/elcard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@+id/lpcard"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="2dp"
+                android:visibility="visible"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/elcolorstrip"
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary" />
+                    <ImageView
+                        android:id="@+id/elpic"
+                        android:layout_width="105dp"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/elcolorstrip"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/eleena" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@+id/elpic"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/elname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:text="Eleena Fayaz"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/elrole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="(Team-Member)"
+                            android:textSize="12sp" />
+                        <TextView
+                            android:id="@+id/eloccu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="System Analyst"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/elemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:onClick="composeMail"
+                            android:tag="5"
+                            android:text="@string/eleena_email"
+                            android:textColor="#2962ff"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lpcardcard"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/privacytext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="openInWebView"
+                        android:text="Privacy Policy"
+                        android:textColor="#616161"
+                        android:textSize="16sp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#bdbdbd">
+                    </View>
+                    <TextView
+                        android:id="@+id/contacttext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:onClick="composeMail"
+                        android:tag="4"
+                        android:text="contact.crabsofts@gmail.com"
+                        android:textColor="#616161"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

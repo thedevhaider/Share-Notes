@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crabsofts.sharenotes.Activities.FeedbackActivity">
+    <include
+        layout="@layout/main_tool_bar"
+        android:id="@+id/toolbar">
+    </include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/toolbar">
+        <TextView
+            android:id="@+id/fromuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From: mohdhaider30@gmail.com"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e0e0e0"
+            android:layout_marginTop="10dp"></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*Feedback:"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please tell us what do you think, any kind of feedback is highly appreciated."
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:id="@+id/feedbackEditText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:inputType="textMultiLine"
+            android:textSize="16sp"
+            android:hint="Type in your feedback"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:background="@drawable/login_back"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:onClick="sendMail" />
+    </LinearLayout>
+</RelativeLayout>

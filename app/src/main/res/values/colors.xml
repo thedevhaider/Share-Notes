@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="screen1">#388e3c</color>
+    <color name="screen2">#0288d1</color>
+    <color name="screen3">#d32f2f</color>
+    <color name="toolbarTransparent">#00FFFFFF</color>
+    <color name="button_start">#ef5350</color>
+    <color name="button_end">#ff7043</color>
+    <color name="DoubtcolorPrimary">#3f51b5</color>
+    <color name="DoubtcolorPrimaryDark">#303f9f</color>
+    <color name="DoubtcolorAccent">#2196f3</color>
+    <color name="RedColorStrip">#d32f2f</color>
+    <color name="PinkColorStrip">#c2185b</color>
+    <color name="PurpleColorStrip">#7b1fa2</color>
+    <color name="DPurpleColorStrip">#512da8</color>
+    <color name="IndigoColorStrip">#303f9f</color>
+    <color name="BlueColorStrip">#1976d2</color>
+    <color name="CyanColorStrip">#0097a7</color>
+    <color name="TealColorStrip">#00796b</color>
+    <color name="GreenColorStrip">#388e3c</color>
+    <color name="LimeColorStrip">#afb42b</color>
+    <color name="YellowColorStrip">#fbc02d</color>
+    <color name="OrangeColorStrip">#f57c00</color>
+    <color name="DOrangeColorStrip">#e64a19</color>
+
+</resources>
